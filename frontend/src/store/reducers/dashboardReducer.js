@@ -1,12 +1,14 @@
+import { SET_USERNAME } from "../constant/dashboarbConstant";
 
 const initialState = {
     username:''
 }
 const dashboardReducer = (state=initialState,action)=>{
     switch (action.type) {
-        case 'ABC':
+        case SET_USERNAME:
             return {
-                ...state
+                ...state,
+                username:action.payload
             }
         default:
             return state;
