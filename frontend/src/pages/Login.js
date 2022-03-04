@@ -19,14 +19,21 @@ function Login() {
     navigate('/dashboard');
   };
   return (
-    <>
-      <h1>I am login</h1>
-      <UserNameInput username={username} onUserNameChange={onUserNameChange} />
-      <SubmitButton
-        text={`Click me`}
-        onSubmitButtonClick={onSubmitButtonClick}
-      />
-    </>
+    <div>
+      <div>
+        <div>
+          <h1>I am login</h1>
+          <UserNameInput
+            username={username}
+            onUserNameChange={onUserNameChange}
+          />
+          <SubmitButton
+            text={`Click me`}
+            onSubmitButtonClick={onSubmitButtonClick}
+          />
+        </div>
+      </div>
+    </div>
   );
 }
 
