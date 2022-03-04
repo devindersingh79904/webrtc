@@ -23,7 +23,7 @@ function Login() {
       <h1>I am login</h1>
       <UserNameInput username={username} onUserNameChange={onUserNameChange} />
       <SubmitButton
-        text={`mainu click kro`}
+        text={`Click me`}
         onSubmitButtonClick={onSubmitButtonClick}
       />
     </>
