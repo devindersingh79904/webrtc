@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import SubmitButton from '../components/SubmitButton';
 import UserNameInput from '../components/UserNameInput';
-import { SET_USERNAME } from '../store/constant/dashboarbConstant';
 import { setUserName } from '../store/actions/dashboardAction';
 
 function Login() {
